@@ -24,11 +24,11 @@ ________________________________________________________________________________
 
 1. 'python3 carder.py'
 	choose card type
->	this creates 12 copies of that card number
+>	this creates 6 copies of that card number
 
 2. 'python3 combine.py'
 	choose card you just did
->	this multiplies that number 5 times (multiplying 12x5 to make 5 years)
+>	this multiplies that number 2 times (multiplying 12x5 to make 5 years)
 
 3. 'python3 adder.py'
 	choose card again
@@ -39,20 +39,24 @@ ________________________________________________________________________________
 >	must do
 
 5. 'python3 biner2.py'
->	this allows us to pass through all CVV's to the card and expire
+>	this allows makes it so you can add the CVV's to the card and expire date
 
 6. 'python3 ADHD.py'
 	choose card for last time
->	this factors in the CVV's in with the expiration date and card number
+>	this places 500 CVV's in with the expiration date and card number
 
 
+7. 'python3 ADHD2.py'
+>	this places the other 499 CVV's in with the cc and expire date
 _________________________________________________________________________________________________________________________
 __________________________________________________________________________________________________________________________
 
-#	IF YOU WANT TO CAHNGE THE DATE FROM THE PROGRAMS DEFAULT...
+#	IF YOU WANT TO CHANGE THE DATE FROM THE PROGRAMS DEFAULT SETTING...
 >		1. open "adder.py" in your text editor
 >			2. go to the variale "date"
 >				3. change expire.txt to...
 #					expire2.txt
 					    OR
 #					expire3.txt
+
+	I only have dates going up to January/2023-December/2028 configured. They are divided up by 2's in the EXPIRE text files.
