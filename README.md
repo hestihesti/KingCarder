@@ -1,3 +1,16 @@
+This program generates a credit cards 16 digit number (visa starts with 4, mastercard starts with 5, discover starts with 6, and 
+american express starts with 34 or 37). The rest of the numbers are set randomly. Once 16-digit is created it multiplies itself by 6,
+so now you have 6 copies of the same card. Once that is done, it multiplies itself again by 2 and attaches the expiration date at the 
+end of it. now some serious math happends that allows a cvv '001' to be passed through each expiration date. After the expiration date 
+hits december, it restarts, but the cvv goes up by '001'. So now the code is passing '002' in for the cvv. This program works with a 2 year 
+span, but it can be modified in "adder.py". The program saves the file in the 'cards' Directory. Now all you need to do is get yourself a 
+CreditCardChecker/CreditCardVerifier and a CreditCardInformationOSINT type thing them you'll have yourself one hell of a setup.
+
+			BE SAFE
+		USE TOR, VPN, AND PROXIES
+	
+______________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________
 
 #		TO RUN THE PROGRAM
 
