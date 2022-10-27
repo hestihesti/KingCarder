@@ -5,9 +5,6 @@ from termcolor import colored
 
 def king():
 
-#	card = input('What Kind Of Card Do You Want To Create: ')
-#	CARD = input('Again, But With ALL CAPS')
-
 	step1 = 'python3 carder.py'
 	step2 = 'python3 combine.py'
 	step3 = 'python3 adder.py'
@@ -18,22 +15,23 @@ def king():
 
 
 	os.system(step1)
-#	os.system(card)
 	print(colored('Step 1 Completed', 'yellow'))
+
 	os.system(step2)
-#	os.system(card)
 	print(colored('Step 2 Completed', 'yellow'))
+	
 	os.system(step3)
-#	os.system(card)
 	print(colored('Step 3 Completed', 'yellow'))
+	
 	os.system(step4)
-#	os.system(CARD)
 	print(colored('Step 4 Completed', 'yellow'))
+	
 	os.system(step5)
 	print(colored('Step 5 Completed', 'yellow'))
+
 	os.system(step6)
-#	os.system(card)
 	print(colored('Step 7 Completed', 'yellow'))
+
 	os.system(step7)
 	print(colored('Final Step Completed', 'green'))
 
