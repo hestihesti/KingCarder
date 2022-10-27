@@ -39,7 +39,7 @@ def genr():
 				dat = fin.read().splitlines(True)
 			with open('CC.txt', 'w') as fout:
 				fout.writelines(dat[:15])
-			print('File Is Created')
+#			print('File Is Created')
 
 			append = 'cat CC.txt >> visa.txt'
 			rm_c = 'rm cards.txt'
@@ -81,7 +81,7 @@ def genr():
 				with open('CC.txt', 'w') as fout:
 					fout.writelines(dat[:15])
 
-			print('File Is Created')
+#			print('File Is Created')
 
 			append = 'cat CC.txt >> mastercard.txt'
 			rm_c = 'rm cards.txt'
@@ -124,7 +124,7 @@ def genr():
 				with open('CC.txt', 'w') as fout:
 					fout.writelines(dat[:15])
 
-			print('File Is Created')
+#			print('File Is Created')
 			append = 'cat CC.txt >> american_express.txt'
 			rm_c = 'rm cards.txt'
 			rm_C = 'rm Cards.txt'
@@ -164,7 +164,7 @@ def genr():
 				with open('CC.txt', 'w') as fout:
 					fout.writelines(dat[:15])
 
-			print('File Is Created')
+#			print('File Is Created')
 
 			append = 'cat CC.txt >> discover.txt'
 			rm_c = 'rm cards.txt'
