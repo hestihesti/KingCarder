@@ -23,7 +23,7 @@ def test():
 		data += data2
 		with open('yes.txt', 'a') as fp:
 			fp.write(data)
-		print(f'File Saved {i} Times!')
+#		print(f'File Saved {i} Times!')
 
 	rm = 'rm YES.txt'
 	rm2 = 'rm YES2.txt'
