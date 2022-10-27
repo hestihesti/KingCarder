@@ -20,7 +20,7 @@ def layers():
 		data += data2
 		with open('YES.txt', 'a') as fp:
 			fp.write(data)
-		print(f'File Saved {i} Times!')
+#		print(f'File Saved {i} Times!')
 
 	rm = 'rm ' + c + '.txt'
 	rm2 = 'rm ' + c + '2.txt'
