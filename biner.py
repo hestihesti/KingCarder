@@ -24,25 +24,12 @@ def compiler():
 #			    v  edited here
 		with open('YES.txt', 'a') as fp:
 			fp.write(data)
-		print(f'File Saved {i} Times!')
+#		print(f'File Saved {i} Times!')
 
 	rm = 'rm ' + c + '.txt'
 	rm2 = 'rm ' + c + '2.txt'
 	os.system(rm)
 	os.system(rm2)
-'''
-def adder():
-	com = []
-	with open('YES.txt') as fa:
-		with open('expire.txt') as fb:
-			with open('VISA.txt', 'w') as fc:
-				alines = fa.readlines()
-				blines = fb.readlines()
-				for i in range(len(alines)):
-					line = alines[i].strip() + '' + blines[i]
-					fc.write(line)
-
-'''
 
 compiler()
 
